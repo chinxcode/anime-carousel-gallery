@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    box-shadow: "0px 4px 4px 0px #00000040,inset 0 0 0 1000px rgba(0,0,0,.5)";
+    box-shadow: 0px 4px 4px 0px #00000040, inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
 }
 
 main {
@@ -137,65 +137,53 @@ main {
     }
 }
 
-@media (width > 650px) and (width < 900px) {
+@media (max-width: 900px) {
     .content {
-        & .title {
-            font-size: 1rem;
-        }
-        & .description {
-            font-size: 0.7rem;
-        }
-        & button {
-            font-size: 0.7rem;
-        }
+        width: min(25vw, 400px);
+        left: 2rem;
     }
     .item {
+        top: 80%;
         width: 160px;
         height: 270px;
 
         &:nth-child(3) {
-            left: 50%;
+            left: 70%;
         }
         &:nth-child(4) {
-            left: calc(50% + 170px);
+            left: calc(70% + 170px);
         }
         &:nth-child(5) {
-            left: calc(50% + 340px);
+            left: calc(70% + 340px);
         }
         &:nth-child(6) {
-            left: calc(50% + 510px);
+            left: calc(70% + 510px);
             opacity: 0;
         }
     }
 }
 
-@media (width < 650px) {
+@media (max-width: 650px) {
     .content {
-        & .title {
-            font-size: 0.9rem;
-        }
-        & .description {
-            font-size: 0.65rem;
-        }
-        & button {
-            font-size: 0.7rem;
-        }
+        width: min(20vw, 400px);
+        left: 1rem;
     }
     .item {
+        top: 80%;
         width: 130px;
         height: 220px;
 
         &:nth-child(3) {
-            left: 50%;
+            left: 70%;
         }
         &:nth-child(4) {
-            left: calc(50% + 140px);
+            left: calc(70% + 140px);
         }
         &:nth-child(5) {
-            left: calc(50% + 280px);
+            left: calc(70% + 280px);
         }
         &:nth-child(6) {
-            left: calc(50% + 420px);
+            left: calc(70% + 420px);
             opacity: 0;
         }
     }
