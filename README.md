@@ -50,4 +50,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 - [Ionicons](https://ionicons.com/) - For providing the navigation icons used in the gallery.
 - [Wallpaper Flare](https://www.wallpaperflare.com/) - For providing the background images used in the carousel items.
-```
