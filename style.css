@@ -23,11 +23,11 @@ main {
 }
 
 .item {
-    width: min(20vw, 100px); /* Adjusted width */
-    height: min(30vh, 150px); /* Adjusted height */
+    width: min(20vw, 100px);
+    height: min(30vh, 150px);
     list-style-type: none;
     position: absolute;
-    top: 85%;
+    top: 80%;
     transform: translateY(-50%);
     z-index: 1;
     background-position: center;
@@ -140,6 +140,7 @@ main {
     & .btn {
         background-color: rgba(255, 255, 255, 0.3);
         color: rgba(0, 0, 0, 0.7);
+        font-size: 1.5rem;
         border: 2px solid rgba(0, 0, 0, 0.6);
         margin: 0 0.25rem;
         padding: 0.75rem;
@@ -152,6 +153,9 @@ main {
     }
 }
 @media (max-width: 930px) {
+    .nav {
+        bottom: 5rem;
+    }
     .content {
         text-align: center;
         width: 75%;
