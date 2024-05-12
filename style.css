@@ -153,8 +153,11 @@ main {
     }
 }
 @media (max-width: 930px) {
+    .item {
+        bottom: 75%;
+    }
     .nav {
-        bottom: 5rem;
+        bottom: 6rem;
     }
     .content {
         text-align: center;
